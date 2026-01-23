@@ -33,7 +33,7 @@
                   </ul>
                 </div>
                 <a href="#goods" class="mx-3 card-title text-decoration-none">Товары</a>
-                <a href='#' class="mx-3 card-title text-decoration-none">Контакты</a>
+                <a href='#contact' class="mx-3 card-title text-decoration-none">Контакты</a>
             </div>
         </div>
         <div class="bg-light container-fluid d-flex flex-column align-items-center p-5 mb-5">
@@ -45,7 +45,7 @@
             <div class="fs-1 fw-bold text-success"><i class="fa-solid fa-person-circle-question"></i> Есть вопросы?</div>
             <div class="bg-success bg-gradient rounded-pill mb-3" style="height: 5px; width: 20%"></div>
             <div class="fs-4 text-secondary mb-3"> Оставьте заявку - и мы свяжемся с вами в течении 15 минут</div>
-            <div class="btn btn-outline-success rounded-pill btn-lg px-5 border-2"><i class="fa-solid fa-paper-plane"></i> Связаться с нами</div>
+            <a href="#contact" class="btn btn-outline-success rounded-pill btn-lg px-5 border-2"><i class="fa-solid fa-paper-plane"></i> Связаться с нами</a>
         </div>
         <div class="container-fluid bg-light p-5" id="goods">
             <div class="container d-flex flex-column align-items-center p-5">
@@ -122,6 +122,104 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
+                <div class="display-6 fw-bold mt-5 mb-3">Часто задаваемые вопросы</div>
+                <div class="accordion w-75" id="accordionExample">
+                  <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                      <div class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fa-solid fa-circle-question me-2 text-success fs-5"></i> Как оформить заказ?
+                      </div>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body fs-6">
+                        Выберите товар, нажмите "Купить" и заполните форму в корзине.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                      <div class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fa-solid fa-truck me-2 text-success fs-5"></i> Есть ли доставка по России?
+                      </div>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                         Да, доставка по России имеется в любой город-миллионник
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                      <div class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fa-solid fa-rotate-left me-2 text-success fs-5"></i> Как вернуть товар?
+                      </div>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Заполните форму возврата, а также ознакомьтесь с <a href="#">правилами</a> возврата
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white container-fluid p-5 mb-5">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="fs-1 fw-bold my-5" id="contact">Свяжитесь с нами</div>
+                <div class="row w-100">
+                    <div class="col-5 d-flex justify-content-end">
+                        <div class="p-4 bg-light shadow d-inline-block rounded-4 fs-5">
+                            <div class="text-success fs-3 mb-3"><i class="fa-solid fa-headset me-2"></i>Поддержка</div>
+                            <div class="mb-3"><i class="fa-solid fa-location-dot me-2"></i> г. Екатеринбург, ул. Сигмафу, 1</div>
+                            <div class="mb-3"><i class="fa-solid fa-phone me-2"></i> +7 (900) 123-45-67</div>
+                            <div class="mb-3"><i class="fa-solid fa-envelope me-2"></i> info@example.com</div>
+                            <div class="mb-3"><i class="fa-solid fa-clock me-2"></i> Пн-Пт: 9:00 - 18:00</div>
+                            <hr>
+                            <div class="text-secondary fs-6 pb-2">Напишите нам - ответим в течении часа!</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="shadow p-4 rounded-4">
+                            <div class="mb-5 d-flex"><input class="form-control col me-3 fs-5" placeholder="Ваше имя"><input type="email" class="form-control col ms-3 fs-5" id="exampleFormControlInput1" placeholder="Email"></div>
+                            <textarea class="form-control my-5 fs-5" id="exampleFormControlTextarea1" rows="3" placeholder="Сообщение"></textarea>
+                            <a href='#' class="btn btn-success d-block fs-5"><i class="fa-solid fa-paper-plane"></i> Отправить сообщение</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark bg-gradient p-5 text-light">
+            <div class="container">
+                <div class="d-flex justify-content-around mb-3">
+                    <div class="col">
+                        <div class="fw-bold fs-4"><div class="bg-success rounded-circle p-2 d-inline-block mb-3"><i class="fa-solid fa-cow"></i></div> Гудбиф</div>
+                        <div class="mb-3">Продаем лучшее мясные продукты в Екатеринбурге с 2026 года.</div>
+                        <div class="fs-5" style="cursor: pointer;"><i class="fa-brands fa-discord me-2"></i><i class="fa-brands fa-whatsapp me-2"></i><i class="fa-brands fa-telegram me-2"></i><i class="fa-brands fa-instagram me-2"></i></div>
+                    </div>
+                    <div class="col">
+                        <div class="text-success mb-1 fs-5">Продукты</div>
+                        <div class="mb-1">Все товары</div>
+                        <div class="mb-1">Новинки</div>
+                        <div class="mb-1">Хиты продаж</div>
+                        <div class="mb-1">Акции</div>
+                    </div>
+                    <div class="col">
+                        <div class="text-success mb-1 fs-5">Компания</div>
+                        <div class="mb-1">О нас</div>
+                        <div class="mb-1">Контакты</div>
+                        <div class="mb-1">Вакансии</div>
+                        <div class="mb-1">Партнёрам</div>
+                    </div>
+                    <div class="col">
+                        <div class="text-success mb-1 fs-5">Поддержка</div>
+                        <div class="mb-1">FAQ</div>
+                        <div class="mb-1">Доставка</div>
+                        <div class="mb-1">Возврат</div>
+                        <div class="mb-1">Гарантия</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="text-center mt-3">© 2026 Гудбиф. Все права защищены. | Политика конфидециальности</div>
             </div>
         </div>
 
