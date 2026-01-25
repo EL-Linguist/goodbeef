@@ -39,7 +39,7 @@
 
 
             <a class="btn btn-success d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></a>
-            <div class="offcanvas offcanvas-start" data-bs-scroll="false" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
               <div class="offcanvas-header">
                 <h5 class="offcanvas-title text-success fw-bold ms-3" id="offcanvasExampleLabel"><i class="fa-solid fa-cow"></i> Гудбиф</h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -296,6 +296,20 @@
                     }
                 });
             });
+
+            function setOffcanvasSize() {
+                const offcanvas = document.querySelector('.offcanvas');
+                if (window.innerWidth < 576) {
+                    offcanvas.style.setProperty('--bs-offcanvas-width', '200px');
+                } else if (window.innerWidth < 768) {
+                    offcanvas.style.setProperty('--bs-offcanvas-width', '250px');
+                } else {
+                    offcanvas.style.setProperty('--bs-offcanvas-width', '300px');
+                }
+            }
+
+            window.addEventListener('DOMContentLoaded', setOffcanvasSize);
+            window.addEventListener('resize', setOffcanvasSize);
         </script>
 
 </body></html>
