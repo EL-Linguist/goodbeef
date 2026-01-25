@@ -1,0 +1,237 @@
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <title>Гудбиф</title>
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/whiteboard-semibold.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/etch-solid.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-solid.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-regular.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-light.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/sharp-thin.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/solid.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/regular.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/light.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/thin.css">
+        <style>
+            ul {
+                list-style-type: "⎯   ";
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid p-4 d-flex justify-content-between justify-content-lg-around fs-4 shadow">
+            <a href="index.html" class="text-success fw-bold mx-3 card-title text-decoration-none"><i class="fa-solid fa-cow"></i> Гудбиф</a>
+            <div class="text-secondary d-none d-lg-flex">
+                <a href="about_company.html" class="mx-3 card-title text-decoration-none">О компании</a>
+                <a href="#delivery_payment" class="mx-3 card-title text-decoration-none">Доставка и оплата</a>
+                <div class="dropdown mx-3">
+                  <div class="dropdown-toggle text-secondary" type="button" data-bs-toggle="dropdown" style="text-decoration: none;">
+                    Рецепты
+                  </div>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#pork">Свинина</a></li>
+                    <li><a class="dropdown-item" href="#lamb">Баранина</a></li>
+                    <li><a class="dropdown-item" href="#chicken">Курятина</a></li>
+                  </ul>
+                </div>
+                <a href="#goods" class="mx-3 card-title text-decoration-none">Товары</a>
+                <a href="#contact" class="mx-3 card-title text-decoration-none">Контакты</a>
+            </div>
+
+
+            <a class="btn btn-success d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></a>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-success fw-bold ms-3" id="offcanvasExampleLabel"><i class="fa-solid fa-cow"></i> Гудбиф</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  <div class="text-secondary d-flex flex-column">
+                      <a href="about_company.html" class="my-3 card-title text-decoration-none"><i class="fa-solid fa-building"></i> О компании</a>
+                      <a href="#delivery_payment" class="my-3 card-title text-decoration-none"><i class="fa-solid fa-truck"></i> Доставка и оплата</a>
+                      <div class="dropdown my-3">
+                        <div class="text-secondary dropdown-toggle d-inline" type="button" data-bs-toggle="dropdown" style="text-decoration: none;">
+                          <i class="fa-solid fa-newspaper"></i> Рецепты
+                        </div>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#pork">Свинина</a></li>
+                          <li><a class="dropdown-item" href="#lamb">Баранина</a></li>
+                          <li><a class="dropdown-item" href="#chicken">Курятина</a></li>
+                        </ul>
+                      </div>
+                      <a href="#goods" class="my-3 card-title text-decoration-none"><i class="fa-solid fa-basket-shopping"></i> Товары</a>
+                      <a href="#contact" class="my-3 card-title text-decoration-none"><i class="fa-solid fa-phone"></i> Контакты</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <div class="bg-light container-fluid d-flex flex-column align-items-start py-5 px-0 px-lg-5 mb-5">
+            <div class="container">
+                <div class="fs-1 fw-bold">О компании</div>
+                <div class="fs-2 fw-bold">Миссия и ценности</div>
+                <div class=""><b>Свежее мясо</b> — основа здорового питания и залог вкусных блюд. Наша компания создана для того, чтобы сделать качественные мясные продукты доступными для каждого покупателя. Мы объединили лучших производителей мяса и заботливых покупателей на одной площадке.</div>
+                <div class="fs-2 fw-bold">Что мы предлагаем</div>
+                <div class=""><b>Широкий ассортимент</b> премиальной мясной продукции от проверенных фермеров и производителей. На нашем маркетплейсе вы найдете:</div>
+                <ul>
+                    <li class="">Свежую говядину и телятину</li>
+                    <li class="">Свинину высшего сорта</li>
+                    <li class="">Курицу и птицу</li>
+                    <li class="">Диетическое мясо индейки</li>
+                    <li class="">Мясные деликатесы и полуфабрикаты</li>
+                </ul>
+                <div class="fs-2 fw-bold">Наши преимущества</div>
+                <div class=""><b>Контроль качества</b> — наш главный приоритет. Мы гарантируем:</div>
+                <ul>
+                    <li class="">Строгий отбор поставщиков</li>
+                    <li class="">Современные условия хранения и транспортировки</li>
+                    <li class="">Свежесть каждого продукта</li>
+                    <li class="">Прозрачную информацию о происхождении мяса</li>
+                    <li class="">Удобный сервис доставки</li>
+                </ul>
+                <div class="fs-2 fw-bold">Как мы работаем</div>
+                <div class=""><b>Технологичные решения</b> помогают нам обеспечивать:</div>
+                <ul>
+                    <li class="">Простой и понятный интерфейс</li>
+                    <li class="">Быструю обработку заказов</li>
+                    <li class="">Гибкую систему оплаты</li>
+                    <li class="">Надежную доставку</li>
+                    <li class="">Профессиональную поддержку клиентов</li>
+                </ul>
+                <div class="fs-2 fw-bold">Команда профессионалов</div>
+                <div class=""><b>Эксперты в мясе</b> — это наши сотрудники. Каждый член команды:</div>
+                <ul>
+                    <li class="">Знает все о мясных продуктах</li>
+                    <li class="">Следит за качеством на всех этапах</li>
+                    <li class="">Стремится сделать сервис лучше</li>
+                    <li class="">Помогает клиентам с выбором</li>
+                </ul>
+                <div class="">Мы постоянно развиваемся, чтобы радовать вас свежими мясными продуктами высшего качества. Добро пожаловать в мир настоящего мяса!</div>
+            </div>
+        </div>
+        <div class="bg-white container-fluid py-5 px-0 px-lg-5 text-center">
+            <div class="container">
+                <div class="fs-1 fw-bold my-5" id="contact">Свяжитесь с нами</div>
+                <div class="row">
+
+
+
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="p-4 bg-light shadow d-inline-block rounded-4 fs-5 w-100" style='height: 100%;'>
+                            <div class="text-success fs-3 mb-3"><i class="fa-solid fa-headset me-2"></i>Поддержка</div>
+                            <div class="mb-3"><i class="fa-solid fa-location-dot me-2"></i> г. Екатеринбург, ул. Сигма, 1</div>
+                            <div class="mb-3"><i class="fa-solid fa-phone me-2"></i> +7 (900) 123-45-67</div>
+                            <div class="mb-3"><i class="fa-solid fa-envelope me-2"></i> info@example.com</div>
+                            <div class="mb-3"><i class="fa-solid fa-clock me-2"></i> Пн-Пт: 9:00 - 18:00</div>
+                            <hr>
+                            <div class="text-secondary fs-6 pb-2">Ответим в течении часа!</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="shadow p-4 rounded-4">
+                            <div class='container'><div class="mb-5 row"><input class="form-control col me-3 fs-5" placeholder="Ваше имя"><input type="email" class="form-control col ms-3 fs-5" id="exampleFormControlInput1" placeholder="Email"></div></div>
+                            <textarea class="form-control my-5 fs-5" id="exampleFormControlTextarea1" rows="3" placeholder="Сообщение"></textarea>
+                            <a href="#send" class="btn btn-success d-block fs-5"><i class="fa-solid fa-paper-plane"></i> Отправить сообщение</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark bg-gradient py-5 px-0 px-lg-5 text-light text-center">
+            <div class="container">
+              <div class="fw-bold fs-4"><div class="bg-success rounded-circle p-2 d-inline-block mb-3"><i class="fa-solid fa-cow"></i></div> Гудбиф</div>
+              <div class="mb-3">Продаем лучшее мясные продукты в Екатеринбурге с 2026 года.</div>
+              <div class="fs-5 mb-4" style="cursor: pointer;"><i class="fa-brands fa-discord me-2"></i><i class="fa-brands fa-whatsapp me-2"></i><i class="fa-brands fa-telegram me-2"></i><i class="fa-brands fa-instagram me-2"></i></div>
+                <div class="row d-flex justify-content-around mb-3">
+
+                    <div class="col">
+                        <div class="text-success mb-1 fs-5">Продукты</div>
+                        <div class="mb-1">Все товары</div>
+                        <div class="mb-1">Новинки</div>
+                        <div class="mb-1">Хиты продаж</div>
+                        <div class="mb-1">Акции</div>
+                    </div>
+                    <div class="col">
+                        <div class="text-success mb-1 fs-5">Компания</div>
+                        <div class="mb-1">О нас</div>
+                        <div class="mb-1">Контакты</div>
+                        <div class="mb-1">Вакансии</div>
+                        <div class="mb-1">Партнёрам</div>
+                    </div>
+                    <div class="col">
+                        <div class="text-success mb-1 fs-5">Поддержка</div>
+                        <div class="mb-1">FAQ</div>
+                        <div class="mb-1">Доставка</div>
+                        <div class="mb-1">Возврат</div>
+                        <div class="mb-1">Гарантия</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="text-center mt-3">© 2026 Гудбиф. Все права защищены. | Политика конфидециальности</div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script>
+
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const offcanvasElement = document.getElementById('offcanvasExample');
+
+                if (!offcanvasElement) {
+                    console.error('Элемент offcanvas не найден');
+                    return;
+                }
+
+                const offcanvas = new bootstrap.Offcanvas(offcanvasElement);
+
+                offcanvasElement.addEventListener('click', function(event) {
+                    const target = event.target;
+
+                    if (target.tagName === 'A' && target.getAttribute('href')) {
+                        event.preventDefault();
+                        const href = target.getAttribute('href');
+
+                        if (href && href.startsWith('#')) {
+                            // Добавляем обработчик события закрытия
+                            offcanvasElement.addEventListener('hidden.bs.offcanvas', function() {
+                                const targetElement = document.querySelector(href);
+                                if (targetElement) {
+                                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }, { once: true });
+
+                            // Скрываем offcanvas
+                            offcanvas.hide();
+                        }
+                    }
+                });
+            });
+
+            function setOffcanvasSize() {
+                const offcanvas = document.querySelector('.offcanvas');
+                if (window.innerWidth < 576) {
+                    offcanvas.style.setProperty('--bs-offcanvas-width', '200px');
+                } else if (window.innerWidth < 768) {
+                    offcanvas.style.setProperty('--bs-offcanvas-width', '250px');
+                } else {
+                    offcanvas.style.setProperty('--bs-offcanvas-width', '300px');
+                }
+            }
+
+            window.addEventListener('DOMContentLoaded', setOffcanvasSize);
+            window.addEventListener('resize', setOffcanvasSize);
+        </script>
+
+</body></html>
